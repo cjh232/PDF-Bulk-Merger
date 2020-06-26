@@ -1,0 +1,100 @@
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif, Helvetica, Arial, sans-serif;
+  color: white;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background: #212c3d;
+  overflow: hidden;
+}
+
+.title-container {
+  margin: auto;
+  color: white;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.title-container h1 {
+  font-size: large;
+  color: white;
+}
+
+.file-path-preview {
+  margin: auto;
+  color: white;
+}
+
+.file-path-preview:hover {
+  text-decoration: underline;
+  color: #0990ff;
+}
+
+.preview-container {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: 15%;
+}
+
+.btn-container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: 15%;
+  height: auto;
+}
+
+.file-container {
+  padding-top: 1em;
+  margin: auto;
+  height: auto;
+}
+
+.dropzone {
+  margin: auto;
+  position: relative;
+  top: 10%;
+  width: 300px;
+  height: 150px;
+  border: 2px dashed #ccc;
+  color: white;
+  line-height: 150px;
+  text-align: center;
+
+}
+
+.dropzone p {
+  position: relative;
+  top: 60px;
+  color: white;
+}
+
+
+.dropzone.dragover p {
+  position: relative;
+  top: 60px;
+  color: #0990ff;
+}
+
+.dropzone.dragover {
+  border-color: #0990ff;
+  color: #0990ff;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.non-hidden {
+  visibility: visible;
+}
+
+
+
+

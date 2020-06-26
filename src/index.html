@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PDF Combiner</title>
+    <script defer src="combine.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <div class="title-container" id="title-container">
+      <h1 class="title is-1">City Standard Data</h1>
+      <p class="subtitle is-6" style="color:white">Combine PDF documents in bulk</p>
+    </div>
+
+    <div class="file-container" id="file-container">
+
+      <div class="dropzone" id="dropzone">
+        <p class="subtitle is-6">Drop files here to upload</p>
+      </div>
+
+      <div class="preview-container" id="preview-container">
+        <p class="file-path-preview subtitle is-6" id="file-path-preview"></p>
+        <p class="folder-details" id="folder-details"></p>
+      </div>
+
+      <div class="btn-container" id="btn-container">
+        <button class="button is-rounded hidden" id="submit-button">Combine</button>
+      </div>
+    
+    </div>
+
+  </body>
+</html>
